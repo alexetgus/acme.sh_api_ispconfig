@@ -1,9 +1,9 @@
 # ACME.SH, STOP ERROR "Client ID is not numeric" !
 
 
-# DESCRIPTION (Français) [English is lower]
+## DESCRIPTION (Français) [English is lower]
 
-Ce dépot **uniquement dédié à acme.sh** et son API DNS "**dns_ispconfig.sh**" et destiné à lutter contre cette erreur récurente "**Client ID is not numeric**".
+Ce dépot **uniquement dédié à acme.sh** et son API DNS "**dns_ispconfig.sh**" est destiné à lutter contre cette erreur récurente **Client ID is not numeric**.
 
 Il semblerait que certains hébergeurs "bricolent" ISPCONFIG afin que des ID exclusivement numériques soient utilisés. Une abberation en matière de sécurité mais simple à gérer !..
 
@@ -18,15 +18,15 @@ La solution est simple :
 La solution trouvée, la plus simple possible, est de modifier l'API **dns_ispconfig.sh** pour qu'elle cesse d'utiliser exclusivement des ID client numériques.
 
 
-# UTILISATION
+## UTILISATION
 
 Récupérez le fichier API **dns_ispconfig.sh** et copiez/collez le dans le dossier **/.acme.sh/dnsapi** en écrasant le fichier posant problème.
 
 <hr>
 
-# DESCRIPTION (English)
+## DESCRIPTION (English)
 
-This repository is only **dedicated to acme.sh** and its DNS API "**dns_ispconfig.sh**" and is intended to fight against this recurrent error "**Client ID is not numeric**".
+This repository is only **dedicated to acme.sh** and its DNS API "**dns_ispconfig.sh**" and is intended to fight against this recurrent error **Client ID is not numeric**.
 
 It seems that some hosting companies "tinker" with ISPCONFIG so that exclusively numeric IDs are used. An aberration in terms of security but easy to manage!
 
@@ -38,6 +38,6 @@ The solution is simple:
 
 The solution found is to modify the **dns_ispconfig.sh** API to stop using only numeric client IDs.
 
-# USE
+## USE
 
 Get the API file **dns_ispconfig.sh** and copy/paste it into the **/.acme.sh/dnsapi** folder, overwriting the problematic file.
